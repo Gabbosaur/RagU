@@ -1,7 +1,9 @@
-# Retrieval-Augmented Generation (RAG) Project
+<a href="url"><img src="./ragu-logo.png" height="48" width="48" align="left"></a>
+# RagU
+Go-to app for flavorful document chats and intelligent insights for U
 
 ## Introduction
-This project implements a Retrieval-Augmented Generation (RAG) model, combining the power of retrieval-based and generative models. RAG leverages a knowledge retrieval system to fetch relevant documents and augment a generative model (such as GPT) with the retrieved information. This hybrid approach improves accuracy and factual consistency in question answering, summarization, and other tasks that require retrieving up-to-date information.
+This project implements a Retrieval-Augmented Generation (RAG) system, combining the power of retrieval-based and generative models. RAG leverages a knowledge retrieval system to fetch relevant documents and augment a generative model with the retrieved information. This hybrid approach improves accuracy and factual consistency in question answering, summarization, and other tasks that require retrieving up-to-date information.
 
 The RAG architecture is particularly useful for applications where large, dynamic datasets must be referenced, making it a cutting-edge solution for knowledge-driven tasks.
 
