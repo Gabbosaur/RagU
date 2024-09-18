@@ -29,6 +29,8 @@ The RAG architecture is particularly useful for applications where large, dynami
 4. **Download necessary models**
    Depending on the model you are using, you might need to download some pretrained models. Make sure that Ollama is running.
    ```bash
+    # linux installation (if windows installation follow https://ollama.com/download/windows)
+    curl -fsSL https://ollama.com/install.sh | sh
     ollama serve
     ```
 
