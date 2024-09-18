@@ -12,7 +12,7 @@ The RAG architecture is particularly useful for applications where large, dynami
 1. **Clone the repository**
     ```bash
     git clone https://github.com/Gabbosaur/RagU.git
-    cd ragu
+    cd RagU
     ```
 
 2. **Create and activate a virtual environment**
