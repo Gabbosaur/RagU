@@ -58,11 +58,11 @@ The RAG architecture is particularly useful for applications where large, dynami
    ```
 
 2. **Upload your documents (pdf/md)**
-   Through the left section, you can upload your pdf and markdown files
+   Through the left section, you can upload your pdf and markdown files.
 
-3. **Wait until the script finishes to index the knowledge database**  
+3. **Update the vector DB** 
+   Click on Update button and wait until the script finishes to index the knowledge database.
    
-
 4. **Ask a question on the right section**
    You can ask the question by using the input form on the right section, wait few seconds and see the answer.
 

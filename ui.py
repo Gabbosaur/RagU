@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 st.title("🍝 RagU")
-st.subheader("Go-to app for flavorful document chats and intelligent insights")
+st.subheader("Go-to app for flavorful document chats and intelligent insights for U")
 st.sidebar.header("📤 Upload Section")
 uploaded_files = st.sidebar.file_uploader("Upload PDF or Markdown files", type=['pdf', 'md'], accept_multiple_files=True)
 
