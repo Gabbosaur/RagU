@@ -15,6 +15,11 @@ QUERY_SCRIPT_PATH = os.path.join(os.path.dirname(__file__), 'query_data.py')
 
 
 # Section 1: Drag and Drop for PDF and Markdown files
+st.set_page_config(
+    page_title="RagU",  # Set your custom page title
+    page_icon="ragu-logo.png"  # Path to your favicon image file (can be a local path or a URL)
+)
+
 st.title("🍝 RagU")
 st.subheader("Go-to app for flavorful document chats and intelligent insights")
 st.sidebar.header("📤 Upload Section")
