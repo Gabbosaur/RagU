@@ -9,17 +9,17 @@ Actual Response: {actual_response}
 """
 
 
-def test_monopoly_rules():
+def test_highest_pil_country():
     assert query_and_validate(
-        question="How much total money does a player start with in Monopoly? (Answer with the number only)",
-        expected_response="$1500",
+        question="Qual è il paese con il PIL più alto? (Rispondi solo con il nome del paese senza mettere in confronto con altri paesi.)",
+        expected_response="Germania",
     )
 
 
-def test_ticket_to_ride_rules():
+def test_spain_efficiency():
     assert query_and_validate(
-        question="How many points does the longest continuous train get in Ticket to Ride? (Answer with the number only)",
-        expected_response="10 points",
+        question="Qual è l efficienza della Spagna per quanto riguarda la transizione energetica? (Rispondi con un numero)",
+        expected_response="92",
     )
 
 
@@ -29,7 +29,7 @@ def query_and_validate(question: str, expected_response: str):
         expected_response=expected_response, actual_response=response_text
     )
 
-    model = Ollama(model="mistral")
+    model = Ollama(model="llama3.1:70b")
     evaluation_results_str = model.invoke(prompt)
     evaluation_results_str_cleaned = evaluation_results_str.strip().lower()
 
